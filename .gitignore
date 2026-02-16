@@ -39,3 +39,8 @@ coverage/
 # Misc
 *.tsbuildinfo
 .cache/
+
+
+.cursor/
+*.md
+phase_development_documentation/
