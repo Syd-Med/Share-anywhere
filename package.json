@@ -9,7 +9,7 @@
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "cd frontend && npm run dev",
     "build": "cd backend && npm install && npm run build",
-    "heroku-postbuild": "cd frontend && npm install && npm run build && cd ../backend && npm install --include=dev && npm run build",
+    "heroku-postbuild": "cd frontend && npm install --include=dev && npm run build && cd ../backend && npm install --include=dev && npm run build",
     "start": "cd backend && npm start"
   }
 }
